@@ -28,3 +28,14 @@ is used to locate or identify webelements on the webpage
 - PartialLinkText
 - CssSelectors
 - ClassName
+
+Why do we need so many locators?
+-- developers may not provide all the locators for all elements
+-- some locators may have duplicate values in different nodes
+-- some locators may not be applicable for the elements we are looking for
+e.g. linktext and partialLinkText are only used for links
+
+"a" tag is also called an anchor tag
+
+if 2 or more elements have same attributes and attribute values,
+selenium will only interact with the first element it locates
