@@ -43,3 +43,17 @@ WebTables consist of different sections or parts:
 
 
 </table>
+
+HW
+
+go to https://the-internet.herokuapp.com/dynamic_controls
+click on checkbox and click on remove
+verify the text
+click on enable verify the textbox is enabled
+enter text and click disable
+verify the textbox is disabled
+
+create a package and name it as utils
+create a class and name as CommonMethods
+create functions (methods) to open and quit the browsers
+open method has to accept a url as a parameter
